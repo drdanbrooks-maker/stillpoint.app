@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f4f1ea" />
+  <title>Stillpoint — Pause. Understand. Choose.</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <button class="brand" data-route="home" aria-label="Stillpoint home"><span class="brand-mark">S</span><span>Stillpoint</span></button>
+    <nav><button class="nav-link active" data-route="home">Reflect</button><button class="nav-link" data-route="stories">My Stories</button><button class="nav-link" id="previewPagesBtn">Preview Pages</button></nav>
+    <button class="icon-btn" id="settingsBtn" aria-label="Settings">•••</button>
+  </header>
+  <main id="app"></main>
+  <footer><span>Private by design · Stored only on this device</span><button id="helpBtn">Need immediate support?</button></footer>
+
+  <dialog id="modal"><div id="modalContent"></div><button class="modal-close" id="modalClose" aria-label="Close">×</button></dialog>
+  <script src="app.js"></script>
+</body>
+</html>
